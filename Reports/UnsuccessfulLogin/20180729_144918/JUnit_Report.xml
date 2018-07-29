@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UnsuccessfulLogin" time="29" tests="4" failures="0" errors="0">
+   <testsuite name="UnsuccessfulLogin" tests="4" failures="0" errors="0" time="29" timestamp="2018-07-29 14:49:29" hostname="prakash - Prakash.AV.LOCAL" id="Test Suites/UnsuccessfulLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\prakash\\Katalon Studio\\Av_LoanManagement\\Reports\\UnsuccessfulLogin\\20180729_144918"/>
+         <property name="logFiles" value="C:\\Users\\prakash\\Katalon Studio\\Av_LoanManagement\\Reports\\UnsuccessfulLogin\\20180729_144918\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="prakash - Prakash.AV.LOCAL"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="169.254.154.20"/>
+         <property name="sessionId" value="e582ec45-f1da-4364-abee-e2741089e7a6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Verify that Password field is validated as required field" classname="Test Cases/Verify that Password field is validated as required field" status="PASSED">
+         <system-out><![CDATA[2018-07-29 14:49:30 - [TEST_CASE][PASSED] - Test Cases/Verify that Password field is validated as required field: Test Cases/Verify that Password field is validated as required field
+
+2018-07-29 14:49:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://kyc'
+
+2018-07-29 14:49:37 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kyc'
+
+2018-07-29 14:49:37 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin' sent to object: 'Object Repository/KYC Login Page/input_Username'
+
+2018-07-29 14:49:37 - [MESSAGE][PASSED] - Keys 'admin' sent to object: 'Object Repository/KYC Login Page/input_Username'
+
+2018-07-29 14:49:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-07-29 14:49:37 - [MESSAGE][PASSED] - Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-07-29 14:49:37 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'The Password field is req' is present on page 
+
+2018-07-29 14:49:38 - [MESSAGE][PASSED] - Text 'The Password field is req' is present on page 
+
+2018-07-29 14:49:38 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-29 14:49:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify that Password field is validated for wrong password" classname="Test Cases/Verify that Password field is validated for wrong password" status="PASSED">
+         <system-out><![CDATA[2018-07-29 14:49:38 - [TEST_CASE][PASSED] - Test Cases/Verify that Password field is validated for wrong password: Test Cases/Verify that Password field is validated for wrong password
+
+2018-07-29 14:49:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://kyc'
+
+2018-07-29 14:49:44 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kyc'
+
+2018-07-29 14:49:44 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin' sent to object: 'Object Repository/KYC Login Page/input_Username'
+
+2018-07-29 14:49:44 - [MESSAGE][PASSED] - Keys 'admin' sent to object: 'Object Repository/KYC Login Page/input_Username'
+
+2018-07-29 14:49:44 - [TEST_STEP][PASSED] - sendKeys: Keys 'wrongpassword' sent to object: 'Object Repository/KYC Login Page/input_Password'
+
+2018-07-29 14:49:44 - [MESSAGE][PASSED] - Keys 'wrongpassword' sent to object: 'Object Repository/KYC Login Page/input_Password'
+
+2018-07-29 14:49:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-07-29 14:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-07-29 14:49:45 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Invalid login attempt' is present on page 
+
+2018-07-29 14:49:45 - [MESSAGE][PASSED] - Text 'Invalid login attempt' is present on page 
+
+2018-07-29 14:49:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-29 14:49:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify that Username field is validated as required field" classname="Test Cases/Verify that Username field is validated as required field" status="PASSED">
+         <system-out><![CDATA[2018-07-29 14:49:45 - [TEST_CASE][PASSED] - Test Cases/Verify that Username field is validated as required field: Test Cases/Verify that Username field is validated as required field
+
+2018-07-29 14:49:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://kyc'
+
+2018-07-29 14:49:51 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kyc'
+
+2018-07-29 14:49:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'pass@word1' sent to object: 'Object Repository/KYC Login Page/input_Password'
+
+2018-07-29 14:49:51 - [MESSAGE][PASSED] - Keys 'pass@word1' sent to object: 'Object Repository/KYC Login Page/input_Password'
+
+2018-07-29 14:49:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-07-29 14:49:51 - [MESSAGE][PASSED] - Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-07-29 14:49:51 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'The Username field is req' is present on page 
+
+2018-07-29 14:49:51 - [MESSAGE][PASSED] - Text 'The Username field is req' is present on page 
+
+2018-07-29 14:49:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-29 14:49:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify that Username field is validated for wrong username" classname="Test Cases/Verify that Username field is validated for wrong username" status="PASSED">
+         <system-out><![CDATA[2018-07-29 14:49:52 - [TEST_CASE][PASSED] - Test Cases/Verify that Username field is validated for wrong username: Test Cases/Verify that Username field is validated for wrong username
+
+2018-07-29 14:49:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://kyc'
+
+2018-07-29 14:49:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kyc'
+
+2018-07-29 14:49:58 - [TEST_STEP][PASSED] - sendKeys: Keys 'wrongusername' sent to object: 'Object Repository/KYC Login Page/input_Username'
+
+2018-07-29 14:49:58 - [MESSAGE][PASSED] - Keys 'wrongusername' sent to object: 'Object Repository/KYC Login Page/input_Username'
+
+2018-07-29 14:49:58 - [TEST_STEP][PASSED] - sendKeys: Keys 'pass@word1' sent to object: 'Object Repository/KYC Login Page/input_Password'
+
+2018-07-29 14:49:58 - [MESSAGE][PASSED] - Keys 'pass@word1' sent to object: 'Object Repository/KYC Login Page/input_Password'
+
+2018-07-29 14:49:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-07-29 14:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-07-29 14:49:58 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Invalid login attempt' is present on page 
+
+2018-07-29 14:49:58 - [MESSAGE][PASSED] - Text 'Invalid login attempt' is present on page 
+
+2018-07-29 14:49:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-29 14:49:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-29 14:49:29 - [TEST_SUITE][PASSED] - UnsuccessfulLogin: Test Cases/Verify that Username field is validated for wrong username]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -4,6 +4,19 @@
    <name>button_Login</name>
    <tag></tag>
    <elementGuidId>db97a7ca-a191-4d10-808d-e7b798ceeb14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//Input[@Value='Login']</value>
+   </webElementProperties>
 </WebElementEntity>

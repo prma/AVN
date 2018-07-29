@@ -19,3 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.sendKeys(findTestObject('KYC Login Page/input_Username'), 'wrongusername')
+
+WebUI.sendKeys(findTestObject('KYC Login Page/input_Password'), 'pass@word1')
+
+WebUI.click(findTestObject('KYC Login Page/button_Login'))
+
+WebUI.verifyTextPresent('Invalid login attempt', false)
+

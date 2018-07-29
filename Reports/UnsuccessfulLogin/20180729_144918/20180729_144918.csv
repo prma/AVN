@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UnsuccessfulLogin,Firefox 61.0,,2018-07-29 14:49:29,2018-07-29 14:49:59,29.389s,PASSED
+,,,,,,
+Test Cases/Verify that Password field is validated as required field,Firefox 61.0,,2018-07-29 14:49:30,2018-07-29 14:49:38,8.216s,PASSED
+openBrowser,Firefox 61.0,,2018-07-29 14:49:30,2018-07-29 14:49:37,7.003s,PASSED
+sendKeys,Firefox 61.0,,2018-07-29 14:49:37,2018-07-29 14:49:37,0.210s,PASSED
+click,Firefox 61.0,,2018-07-29 14:49:37,2018-07-29 14:49:37,0.212s,PASSED
+verifyTextPresent,Firefox 61.0,,2018-07-29 14:49:37,2018-07-29 14:49:38,0.141s,PASSED
+closeBrowser,Firefox 61.0,,2018-07-29 14:49:38,2018-07-29 14:49:38,0.332s,PASSED
+,,,,,,
+Test Cases/Verify that Password field is validated for wrong password,Firefox 61.0,,2018-07-29 14:49:38,2018-07-29 14:49:45,6.999s,PASSED
+openBrowser,Firefox 61.0,,2018-07-29 14:49:38,2018-07-29 14:49:44,5.827s,PASSED
+sendKeys,Firefox 61.0,,2018-07-29 14:49:44,2018-07-29 14:49:44,0.136s,PASSED
+sendKeys,Firefox 61.0,,2018-07-29 14:49:44,2018-07-29 14:49:44,0.175s,PASSED
+click,Firefox 61.0,,2018-07-29 14:49:44,2018-07-29 14:49:45,0.267s,PASSED
+verifyTextPresent,Firefox 61.0,,2018-07-29 14:49:45,2018-07-29 14:49:45,0.129s,PASSED
+closeBrowser,Firefox 61.0,,2018-07-29 14:49:45,2018-07-29 14:49:45,0.267s,PASSED
+,,,,,,
+Test Cases/Verify that Username field is validated as required field,Firefox 61.0,,2018-07-29 14:49:45,2018-07-29 14:49:52,6.662s,PASSED
+openBrowser,Firefox 61.0,,2018-07-29 14:49:45,2018-07-29 14:49:51,5.745s,PASSED
+sendKeys,Firefox 61.0,,2018-07-29 14:49:51,2018-07-29 14:49:51,0.078s,PASSED
+click,Firefox 61.0,,2018-07-29 14:49:51,2018-07-29 14:49:51,0.243s,PASSED
+verifyTextPresent,Firefox 61.0,,2018-07-29 14:49:51,2018-07-29 14:49:51,0.154s,PASSED
+closeBrowser,Firefox 61.0,,2018-07-29 14:49:51,2018-07-29 14:49:52,0.284s,PASSED
+,,,,,,
+Test Cases/Verify that Username field is validated for wrong username,Firefox 61.0,,2018-07-29 14:49:52,2018-07-29 14:49:59,7.044s,PASSED
+openBrowser,Firefox 61.0,,2018-07-29 14:49:52,2018-07-29 14:49:58,5.957s,PASSED
+sendKeys,Firefox 61.0,,2018-07-29 14:49:58,2018-07-29 14:49:58,0.083s,PASSED
+sendKeys,Firefox 61.0,,2018-07-29 14:49:58,2018-07-29 14:49:58,0.104s,PASSED
+click,Firefox 61.0,,2018-07-29 14:49:58,2018-07-29 14:49:58,0.303s,PASSED
+verifyTextPresent,Firefox 61.0,,2018-07-29 14:49:58,2018-07-29 14:49:58,0.148s,PASSED
+closeBrowser,Firefox 61.0,,2018-07-29 14:49:58,2018-07-29 14:49:59,0.278s,PASSED
