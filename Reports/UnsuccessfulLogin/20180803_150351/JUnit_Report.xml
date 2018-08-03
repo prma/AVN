@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UnsuccessfulLogin" time="52" tests="3" failures="1" errors="0">
+   <testsuite name="UnsuccessfulLogin" tests="3" failures="1" errors="0" time="52" timestamp="2018-08-03 15:03:52" hostname="bikram - Bikram.AV.LOCAL" id="Test Suites/UnsuccessfulLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\AVN\\AVN\\Reports\\UnsuccessfulLogin\\20180803_150351"/>
+         <property name="logFiles" value="D:\\AVN\\AVN\\Reports\\UnsuccessfulLogin\\20180803_150351\\execution0.log"/>
+         <property name="attachments" value="D:\\AVN\\AVN\\Reports\\UnsuccessfulLogin\\20180803_150351\\1533287961213.png, D:\\AVN\\AVN\\Reports\\UnsuccessfulLogin\\20180803_150351\\1533287961346.png"/>
+         <property name="hostName" value="bikram - Bikram.AV.LOCAL"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Firefox 55.0"/>
+         <property name="hostAddress" value="192.168.1.15"/>
+         <property name="sessionId" value="e3a1419d-c108-4cde-8bb2-773b705fd063"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Verify that Password field is validated for wrong password" classname="Test Cases/Verify that Password field is validated for wrong password" status="PASSED">
+         <system-out><![CDATA[2018-08-03 15:03:53 - [TEST_CASE][PASSED] - Test Cases/Verify that Password field is validated for wrong password: Test Cases/Verify that Password field is validated for wrong password
+
+2018-08-03 15:03:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'http://kyc'
+
+2018-08-03 15:03:53 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-03 15:03:53 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-08-03 15:03:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://kyc'
+
+2018-08-03 15:04:05 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kyc'
+
+2018-08-03 15:04:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin' sent to object: 'Object Repository/KYC Login Page/input_Username'
+
+2018-08-03 15:04:05 - [MESSAGE][PASSED] - Keys 'admin' sent to object: 'Object Repository/KYC Login Page/input_Username'
+
+2018-08-03 15:04:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'wrongpassword' sent to object: 'Object Repository/KYC Login Page/input_Password'
+
+2018-08-03 15:04:06 - [MESSAGE][PASSED] - Keys 'wrongpassword' sent to object: 'Object Repository/KYC Login Page/input_Password'
+
+2018-08-03 15:04:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-08-03 15:04:07 - [MESSAGE][PASSED] - Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-08-03 15:04:07 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Invalid login attempt' is present on page 
+
+2018-08-03 15:04:07 - [MESSAGE][PASSED] - Text 'Invalid login attempt' is present on page 
+
+2018-08-03 15:04:07 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-08-03 15:04:07 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-03 15:04:07 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-08-03 15:04:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-03 15:04:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify that Username field is validated as required field" classname="Test Cases/Verify that Username field is validated as required field" status="FAILED">
+         <failure type="FAILED" message="Unable to accept alert (Root cause: No alert found)"/>
+         <system-out><![CDATA[2018-08-03 15:04:07 - [TEST_CASE][FAILED] - Test Cases/Verify that Username field is validated as required field: Test Cases/Verify that Username field is validated as required field FAILED because (of) Unable to accept alert (Root cause: No alert found)
+
+2018-08-03 15:04:07 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'http://kyc'
+
+2018-08-03 15:04:07 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-03 15:04:07 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-08-03 15:04:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://kyc'
+
+2018-08-03 15:04:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kyc'
+
+2018-08-03 15:04:17 - [TEST_STEP][PASSED] - sendKeys: Keys 'pass@word1' sent to object: 'Object Repository/KYC Login Page/input_Password'
+
+2018-08-03 15:04:18 - [MESSAGE][PASSED] - Keys 'pass@word1' sent to object: 'Object Repository/KYC Login Page/input_Password'
+
+2018-08-03 15:04:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-08-03 15:04:18 - [MESSAGE][PASSED] - Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-08-03 15:04:18 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'The Username field is req' is present on page 
+
+2018-08-03 15:04:18 - [MESSAGE][PASSED] - Text 'The Username field is req' is present on page 
+
+2018-08-03 15:04:18 - [TEST_STEP][FAILED] - acceptAlert: Unable to accept alert (Root cause: No alert found)
+
+2018-08-03 15:04:21 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|D:\\AVN\\AVN\\Reports\\UnsuccessfulLogin\\20180803_150351\\1533287961213.png]]
+
+2018-08-03 15:04:21 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: No alert found)
+[[ATTACHMENT|D:\\AVN\\AVN\\Reports\\UnsuccessfulLogin\\20180803_150351\\1533287961346.png]]
+
+2018-08-03 15:04:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-08-03 15:04:21 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-03 15:04:21 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-08-03 15:04:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-03 15:04:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-08-03 15:04:07 - [TEST_CASE][FAILED] - Test Cases/Verify that Username field is validated as required field: Test Cases/Verify that Username field is validated as required field FAILED because (of) Unable to accept alert (Root cause: No alert found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify that Username field is validated for wrong username" classname="Test Cases/Verify that Username field is validated for wrong username" status="PASSED">
+         <system-out><![CDATA[2018-08-03 15:04:21 - [TEST_CASE][PASSED] - Test Cases/Verify that Username field is validated for wrong username: Test Cases/Verify that Username field is validated for wrong username
+
+2018-08-03 15:04:21 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'http://kyc'
+
+2018-08-03 15:04:21 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-03 15:04:21 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-08-03 15:04:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://kyc'
+
+2018-08-03 15:04:31 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kyc'
+
+2018-08-03 15:04:31 - [TEST_STEP][PASSED] - sendKeys: Keys 'wrongusername' sent to object: 'Object Repository/KYC Login Page/input_Username'
+
+2018-08-03 15:04:31 - [MESSAGE][PASSED] - Keys 'wrongusername' sent to object: 'Object Repository/KYC Login Page/input_Username'
+
+2018-08-03 15:04:31 - [TEST_STEP][PASSED] - sendKeys: Keys 'pass@word1' sent to object: 'Object Repository/KYC Login Page/input_Password'
+
+2018-08-03 15:04:32 - [MESSAGE][PASSED] - Keys 'pass@word1' sent to object: 'Object Repository/KYC Login Page/input_Password'
+
+2018-08-03 15:04:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-08-03 15:04:33 - [MESSAGE][PASSED] - Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-08-03 15:04:33 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Invalid login attempt' is present on page 
+
+2018-08-03 15:04:33 - [MESSAGE][PASSED] - Text 'Invalid login attempt' is present on page 
+
+2018-08-03 15:04:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-08-03 15:04:33 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-03 15:04:33 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-08-03 15:04:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-03 15:04:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify that Password field is validated as required field" classname="Test Cases/Verify that Password field is validated as required field" status="PASSED">
+         <system-out><![CDATA[2018-08-03 15:04:33 - [TEST_CASE][PASSED] - Test Cases/Verify that Password field is validated as required field: Test Cases/Verify that Password field is validated as required field
+
+2018-08-03 15:04:33 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'http://kyc'
+
+2018-08-03 15:04:33 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-03 15:04:33 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-08-03 15:04:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://kyc'
+
+2018-08-03 15:04:43 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kyc'
+
+2018-08-03 15:04:44 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin' sent to object: 'Object Repository/KYC Login Page/input_Username'
+
+2018-08-03 15:04:44 - [MESSAGE][PASSED] - Keys 'admin' sent to object: 'Object Repository/KYC Login Page/input_Username'
+
+2018-08-03 15:04:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-08-03 15:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/KYC Login Page/button_Login' is clicked on
+
+2018-08-03 15:04:45 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'The Password field is req' is present on page 
+
+2018-08-03 15:04:45 - [MESSAGE][PASSED] - Text 'The Password field is req' is present on page 
+
+2018-08-03 15:04:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-08-03 15:04:45 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-03 15:04:45 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-08-03 15:04:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-03 15:04:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-03 15:03:52 - [TEST_SUITE][FAILED] - UnsuccessfulLogin: Test Cases/Verify that Username field is validated as required field FAILED because (of) Unable to accept alert (Root cause: No alert found)]]></system-out>
+      <system-err><![CDATA[2018-08-03 15:03:52 - [TEST_SUITE][FAILED] - UnsuccessfulLogin: Test Cases/Verify that Username field is validated as required field FAILED because (of) Unable to accept alert (Root cause: No alert found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UnsuccessfulLogin,Firefox 55.0,,2018-08-01 13:20:24,2018-08-01 13:21:16,51.933s,PASSED
+,,,,,,
+Test Cases/Verify that Password field is validated for wrong password,Firefox 55.0,,2018-08-01 13:20:24,2018-08-01 13:20:38,13.954s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 55.0,,2018-08-01 13:20:24,2018-08-01 13:20:36,11.993s,PASSED
+sendKeys,Firefox 55.0,,2018-08-01 13:20:36,2018-08-01 13:20:37,0.905s,PASSED
+sendKeys,Firefox 55.0,,2018-08-01 13:20:37,2018-08-01 13:20:37,0.148s,PASSED
+click,Firefox 55.0,,2018-08-01 13:20:37,2018-08-01 13:20:38,0.562s,PASSED
+verifyTextPresent,Firefox 55.0,,2018-08-01 13:20:38,2018-08-01 13:20:38,0.209s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 55.0,,2018-08-01 13:20:38,2018-08-01 13:20:38,0.000s,PASSED
+,,,,,,
+Test Cases/Verify that Username field is validated as required field,Firefox 55.0,,2018-08-01 13:20:38,2018-08-01 13:20:50,12.056s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 55.0,,2018-08-01 13:20:38,2018-08-01 13:20:49,10.899s,PASSED
+sendKeys,Firefox 55.0,,2018-08-01 13:20:49,2018-08-01 13:20:49,0.239s,PASSED
+click,Firefox 55.0,,2018-08-01 13:20:49,2018-08-01 13:20:50,0.515s,PASSED
+verifyTextPresent,Firefox 55.0,,2018-08-01 13:20:50,2018-08-01 13:20:50,0.258s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 55.0,,2018-08-01 13:20:50,2018-08-01 13:20:50,0.000s,PASSED
+,,,,,,
+Test Cases/Verify that Username field is validated for wrong username,Firefox 55.0,,2018-08-01 13:20:50,2018-08-01 13:21:03,12.799s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 55.0,,2018-08-01 13:20:50,2018-08-01 13:21:01,10.759s,PASSED
+sendKeys,Firefox 55.0,,2018-08-01 13:21:01,2018-08-01 13:21:01,0.396s,PASSED
+sendKeys,Firefox 55.0,,2018-08-01 13:21:01,2018-08-01 13:21:02,0.663s,PASSED
+click,Firefox 55.0,,2018-08-01 13:21:02,2018-08-01 13:21:03,0.696s,PASSED
+verifyTextPresent,Firefox 55.0,,2018-08-01 13:21:03,2018-08-01 13:21:03,0.180s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 55.0,,2018-08-01 13:21:03,2018-08-01 13:21:03,0.003s,PASSED
+,,,,,,
+Test Cases/Verify that Password field is validated as required field,Firefox 55.0,,2018-08-01 13:21:03,2018-08-01 13:21:15,12.484s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 55.0,,2018-08-01 13:21:03,2018-08-01 13:21:14,10.778s,PASSED
+sendKeys,Firefox 55.0,,2018-08-01 13:21:14,2018-08-01 13:21:14,0.288s,PASSED
+click,Firefox 55.0,,2018-08-01 13:21:14,2018-08-01 13:21:15,1.133s,PASSED
+verifyTextPresent,Firefox 55.0,,2018-08-01 13:21:15,2018-08-01 13:21:15,0.176s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 55.0,,2018-08-01 13:21:15,2018-08-01 13:21:15,0.001s,PASSED
