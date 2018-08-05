@@ -19,11 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.sendKeys(findTestObject('KYC Login Page/input_Username'), 'admin')
-
-WebUI.sendKeys(findTestObject('KYC Login Page/input_Password'), 'pass@word1')
-
-WebUI.click(findTestObject('KYC Login Page/button_Login'))
+WebUI.callTestCase(findTestCase('Main Login Test Cases/TC1_Verify Successful Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('KYC Customer/Page_Customer Page - Loan Reports Autom/a_Customer'))
 
@@ -35,7 +31,7 @@ WebUI.setText(findTestObject('Object Repository/KYC Customer/Page_Individual KYC
 WebUI.click(findTestObject('Object Repository/KYC Customer/Page_Individual KYC - Loan Reports/form_Personal Detail ( )'))
 
 WebUI.setText(findTestObject('Object Repository/KYC Customer/Page_Individual KYC - Loan Reports/input_PersonalDetail.AccountNo'), 
-    'BH4611')
+    'HA4611')
 
 WebUI.setText(findTestObject('Object Repository/KYC Customer/Page_Individual KYC - Loan Reports/input_PersonalDetail.FirstName'), 
     'Bharat')
