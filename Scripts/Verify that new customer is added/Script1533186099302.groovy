@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Main Login Test Cases/TC1_Verify Successful Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC1_Verify Successful Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('KYC Customer/Page_Customer Page - Loan Reports Autom/a_Customer'))
 
@@ -31,7 +31,7 @@ WebUI.setText(findTestObject('Object Repository/KYC Customer/Page_Individual KYC
 WebUI.click(findTestObject('Object Repository/KYC Customer/Page_Individual KYC - Loan Reports/form_Personal Detail ( )'))
 
 WebUI.setText(findTestObject('Object Repository/KYC Customer/Page_Individual KYC - Loan Reports/input_PersonalDetail.AccountNo'), 
-    'HA4611')
+    'HCV4611')
 
 WebUI.setText(findTestObject('Object Repository/KYC Customer/Page_Individual KYC - Loan Reports/input_PersonalDetail.FirstName'), 
     'Bharat')
@@ -75,9 +75,8 @@ WebUI.setText(findTestObject('Object Repository/KYC Customer/Page_Individual KYC
 WebUI.setText(findTestObject('Object Repository/KYC Customer/Page_Individual KYC - Loan Reports/input_PersonalDetail.Identific_1'), 
     '९८७९')
 
-WebUI.clearText(findTestObject('KYC Customer/Page_Individual KYC - Loan Reports/Page_Personal Citizenship issued/input_PersonalDetail.Identific'))
-
-WebUI.click(findTestObject('KYC Customer/Page_Individual KYC - Loan Reports/Page_Personal Citizenship issued/li_pcgrihamantralaya'))
+WebUI.sendKeys(findTestObject('KYC Customer/Page_Individual KYC - Loan Reports/Page_Personal Citizenship issued/input_PersonalDetail.Identific'), 
+    'गाउँ पालिका ')
 
 WebUI.setText(findTestObject('Object Repository/KYC Customer/Page_Individual KYC - Loan Reports/input_PersonalDetail.Identific_2'), 
     'भक्तपुर ')
@@ -111,9 +110,8 @@ WebUI.setText(findTestObject('Object Repository/KYC Customer/Page_Individual KYC
 WebUI.setText(findTestObject('Object Repository/KYC Customer/Page_Individual KYC - Loan Reports/input_FamilyDetails0.Identific_3'), 
     '२०५०/५/७')
 
-WebUI.clearText(findTestObject('KYC Customer/Page_Individual KYC - Loan Reports/Page_Individual Family Citizenship issued/input_FamilyDetails0.Identific'))
-
-WebUI.click(findTestObject('KYC Customer/Page_Individual KYC - Loan Reports/Page_Individual Family Citizenship issued/li_ciprasa'))
+WebUI.sendKeys(findTestObject('KYC Customer/Page_Individual KYC - Loan Reports/Page_Individual Family Citizenship issued/input_FamilyDetails0.Identific'), 
+    'गाउँ पालिका ')
 
 WebUI.setText(findTestObject('Object Repository/KYC Customer/Page_Individual KYC - Loan Reports/input_FamilyDetails0.Identific_4'), 
     'भक्तपुर ')
@@ -141,9 +139,8 @@ WebUI.setText(findTestObject('Object Repository/KYC Customer/Page_Individual KYC
 WebUI.setText(findTestObject('Object Repository/KYC Customer/Page_Individual KYC - Loan Reports/input_FamilyDetails1.Identific_3'), 
     '२०२०/३/६')
 
-WebUI.clearText(findTestObject('KYC Customer/Page_Individual KYC - Loan Reports/Page_Individual Family Citizenship issued/input_FamilyDetails0.Identific'))
-
-WebUI.click(findTestObject('KYC Customer/Page_Individual KYC - Loan Reports/Page_Individual Family Citizenship issued/li_ncjipraka'))
+WebUI.sendKeys(findTestObject('KYC Customer/Page_Individual KYC - Loan Reports/Page_Individual Family Citizenship issued/input_FamilyDetails0.Identific'), 
+    'गाउँ पालिका ')
 
 WebUI.setText(findTestObject('Object Repository/KYC Customer/Page_Individual KYC - Loan Reports/input_FamilyDetails1.Identific_4'), 
     'भक्तपुर ')

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_pcgrihamantralaya</name>
+   <name>a_glyphicon glyphicon-plus lnk</name>
    <tag></tag>
-   <elementGuidId>063305eb-57ac-468b-8c93-0f2013f68086</elementGuidId>
+   <elementGuidId>80b481f8-dd8c-4170-b921-ac0ebab44f19</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[@value = 'गृह मन्त्रालय' and @class = 'es-visible' and (text() = 'गृह मन्त्रालय' or . = 'गृह मन्त्रालय')]</value>
+         <value>//a[@data-id = '82' and @href = '#' and @data-original-title = 'Create New Loan Entry']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,34 +17,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>गृह मन्त्रालय</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>es-visible</value>
+      <value>glyphicon glyphicon-plus lnkAddNewEntryPopup</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>data-id</name>
       <type>Main</type>
-      <value>गृह मन्त्रालय</value>
+      <value>82</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>tooltip</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-original-title</name>
+      <type>Main</type>
+      <value>Create New Loan Entry</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Form&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2&quot;]/ul[@class=&quot;es-list&quot;]/li[@class=&quot;es-visible&quot;]</value>
+      <value>id(&quot;custTable&quot;)/tbody[1]/tr[1]/td[4]/a[@class=&quot;glyphicon glyphicon-plus lnkAddNewEntryPopup&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

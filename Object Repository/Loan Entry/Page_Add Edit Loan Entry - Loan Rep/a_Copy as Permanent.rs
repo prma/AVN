@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_pcgrihamantralaya</name>
+   <name>a_Copy as Permanent</name>
    <tag></tag>
-   <elementGuidId>063305eb-57ac-468b-8c93-0f2013f68086</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//li[@value = 'गृह मन्त्रालय' and @class = 'es-visible' and (text() = 'गृह मन्त्रालय' or . = 'गृह मन्त्रालय')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>70380a22-5d8d-4f9f-bcbf-b92589ec37d8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,34 +11,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>href</name>
       <type>Main</type>
-      <value>गृह मन्त्रालय</value>
+      <value>_#</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>es-visible</value>
+      <value>copyPermanentAddress</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>गृह मन्त्रालय</value>
+      <value>Copy as Permanent</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Form&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2&quot;]/ul[@class=&quot;es-list&quot;]/li[@class=&quot;es-visible&quot;]</value>
+      <value>id(&quot;BailPerson&quot;)/div[@class=&quot;BailPersonSingle&quot;]/div[2]/div[1]/div[@class=&quot;BailPersonFromFamily&quot;]/div[@class=&quot;AddressDiv&quot;]/div[@class=&quot;temporaryAddressDiv&quot;]/div[@class=&quot;row&quot;]/span[1]/a[@class=&quot;copyPermanentAddress&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

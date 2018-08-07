@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_pcgrihamantralaya</name>
+   <name>input_PropertyDetails0.Address_2</name>
    <tag></tag>
-   <elementGuidId>063305eb-57ac-468b-8c93-0f2013f68086</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//li[@value = 'गृह मन्त्रालय' and @class = 'es-visible' and (text() = 'गृह मन्त्रालय' or . = 'गृह मन्त्रालय')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>448468c5-452a-4ae8-b32f-347770180f00</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,34 +11,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>गृह मन्त्रालय</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>es-visible</value>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value>गृह मन्त्रालय</value>
+      <value>PropertyDetails_0__Address_ToleInNepali</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>PropertyDetails[0].Address.ToleInNepali</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>सीट नम्बर</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Form&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2&quot;]/ul[@class=&quot;es-list&quot;]/li[@class=&quot;es-visible&quot;]</value>
+      <value>id(&quot;PropertyDetails_0__Address_ToleInNepali&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

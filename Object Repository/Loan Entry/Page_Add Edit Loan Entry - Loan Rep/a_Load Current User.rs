@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_pcgrihamantralaya</name>
+   <name>a_Load Current User</name>
    <tag></tag>
-   <elementGuidId>063305eb-57ac-468b-8c93-0f2013f68086</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//li[@value = 'गृह मन्त्रालय' and @class = 'es-visible' and (text() = 'गृह मन्त्रालय' or . = 'गृह मन्त्रालय')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>14e4b091-62cd-46b9-a55c-50d2e64959c1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,34 +11,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>href</name>
       <type>Main</type>
-      <value>गृह मन्त्रालय</value>
+      <value>#</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>es-visible</value>
+      <value>loadCurrentUser</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>गृह मन्त्रालय</value>
+      <value>Load Current User</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Form&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2&quot;]/ul[@class=&quot;es-list&quot;]/li[@class=&quot;es-visible&quot;]</value>
+      <value>id(&quot;loadCurrentUser&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

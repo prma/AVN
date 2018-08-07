@@ -56,7 +56,9 @@ WebUI.setText(findTestObject('KYC New User/User Field(Details) Section/input_Use
 
 WebUI.setText(findTestObject('KYC New User/User Field(Details) Section/input_UserDetail.Identificatio_4'), '')
 
-WebUI.click(findTestObject('User Citizenship Issued Place/li_jipraka'))
+WebUI.clearText(findTestObject('User Citizenship Issued Place/Clear(Clear text) and Use new Place(Send Keys)/input_PersonalDetail.Identific'))
+
+WebUI.click(findTestObject('User Citizenship Issued Place/li_grihamantralaya'))
 
 WebUI.setText(findTestObject('KYC New User/User Field(Details) Section/input_UserDetail.Identificatio_5'), 'काठमाडौं  ')
 

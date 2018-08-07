@@ -42,6 +42,6 @@ class AVTestListener {
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseStatus()
-		WebUI.closeBrowser()
+		/*WebUI.closeBrowser()*/
 	}
 }
