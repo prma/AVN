@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Verify that Username field is validated for wrong username</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>7b089acf-ae11-4e27-8891-aa2db83d1ca4</testCaseGuid>
-</TestCaseEntity>

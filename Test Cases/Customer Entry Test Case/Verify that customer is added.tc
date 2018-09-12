@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that customer is added</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db045f77-6de1-4b5a-b533-d0c9579d1671</testCaseGuid>
+</TestCaseEntity>

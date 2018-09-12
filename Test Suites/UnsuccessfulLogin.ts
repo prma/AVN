@@ -15,24 +15,24 @@
       <guid>316011a4-55c3-40df-97c1-eb5b17acdd66</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verify that Password field is validated for wrong password</testCaseId>
+      <testCaseId>Test Cases/Login Test Case/Verify that Password field is validated for wrong password</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dd3d7962-cd9e-4840-b971-958fb5837f89</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verify that Username field is validated as required field</testCaseId>
+      <testCaseId>Test Cases/Login Test Case/Verify that Username field is validated as required field</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>af9be3b5-f9db-4855-ad2a-cd4533bfa74f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verify that Username field is validated for wrong username</testCaseId>
+      <testCaseId>Test Cases/Login Test Case/Verify that Username field is validated for wrong username</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6c6fd5fb-d631-497c-b169-5e4f2310a96d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verify that Password field is validated as required field</testCaseId>
+      <testCaseId>Test Cases/Login Test Case/Verify that Password field is validated as required field</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
