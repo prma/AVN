@@ -21,17 +21,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login Test Case/TC1_Verify Successful Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Page_Customer_Nav/a_Customer'))
+WebUI.click(findTestObject('Customer Links/Customer Button Links/a_Customer'))
 
-WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Page_Customer_Nav/a_Add Customer'))
+WebUI.click(findTestObject('Customer Links/Customer Button Links/a_Add Customer'))
 
-WebUI.setText(findTestObject('KYC New Customer/Page_Customer_Details/input_CustomerID'), 'SM624')
+WebUI.setText(findTestObject('KYC New Customer/Page_Customer_Details/input_CustomerID'), '123124314211')
 
-WebUI.setText(findTestObject('KYC New Customer/Page_Customer_Details/input_AccountNo'), 'SM516')
+WebUI.setText(findTestObject('KYC New Customer/Page_Customer_Details/input_AccountNo'), '113123221123')
 
-WebUI.setText(findTestObject('KYC New Customer/Page_Customer_Details/input_PersonalDetail.FullName'), 'Suman Thapa')
+WebUI.setText(findTestObject('KYC New Customer/Page_Customer_Details/input_PersonalDetail.FullName'), 'John Thapa')
 
-WebUI.setText(findTestObject('KYC New Customer/Page_Customer_Details/input_PersonalDetail.FullNameN'), 'सुमन थापा ')
+WebUI.setText(findTestObject('KYC New Customer/Page_Customer_Details/input_PersonalDetail.FullNameN'), 'जोन थापा ')
 
 WebUI.click(findTestObject('Customer Gender Section/input_PersonalDetail.Gender_Male'))
 
