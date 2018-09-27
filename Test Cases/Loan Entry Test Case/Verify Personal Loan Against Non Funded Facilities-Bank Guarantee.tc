@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Personal Loan Against Non Funded Facilities-Bank Guarantee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd7e5c7f-133a-4901-97d7-8edd9ea299ad</testCaseGuid>
+</TestCaseEntity>

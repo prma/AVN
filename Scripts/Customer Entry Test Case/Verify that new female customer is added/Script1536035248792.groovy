@@ -21,13 +21,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login Test Case/TC1_Verify Successful Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Page_Customer_Nav/a_Customer'))
+WebUI.click(findTestObject('Customer Links/Customer Button Links/a_Customer'))
 
-WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Page_Customer_Nav/a_Add Customer'))
+WebUI.click(findTestObject('Customer Links/Customer Button Links/a_Add Customer'))
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_CustomerID'), 'P136')
+WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_CustomerID'), '9128113')
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_AccountNo'), 'S5612')
+WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_AccountNo'), '12656512')
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FullName'), 'Supriya Thapa')
 
@@ -180,7 +180,7 @@ WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_Pe
 CustomKeywords.'com.example.SampleCustomKeywords.clickUsingJS'(findTestObject('KYC Female Customer/Page_Customer_Details/a_glyphicon glyphicon-plus Dyn'), 
     30)
 
-WebUI.delay(5)
+WebUI.delay(15)
 
 WebUI.selectOptionByValue(findTestObject('KYC Female Customer/Page_Customer_Details/select_-- select --Grand Fathe_6'), 
     'Spouse', true)

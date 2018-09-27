@@ -25,21 +25,21 @@ WebUI.click(findTestObject('Customer Links/Customer Button Links/a_Customer'))
 
 WebUI.click(findTestObject('Customer Links/Customer Button Links/a_Add Customer'))
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_CustomerID'), '43342312341')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_CustomerID'), '92387821')
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_AccountNo'), '44329821897')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_AccountNo'), '921821738')
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FullName'), 'Biswas Khatri')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FullName'), 'Sumit Basnet')
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FullNameN'), 'विश्वास खत्री')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FullNameN'), 'सुमित बस्नेत')
 
 WebUI.click(findTestObject('Customer Gender Section/input_PersonalDetail.Gender_Male'))
 
 WebUI.click(findTestObject('Customer Mariatal Status/input_PersonalDetail.MarritalS_Unmarried'))
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.DOBEnglis'), '1992/5/2')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.DOBEnglis'), '1992/8/4')
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.DOBNepali'), '२०४८/५/६')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.DOBNepali'), '२०४९/५/२')
 
 WebUI.selectOptionByValue(findTestObject('KYC Customer Adding/Page_Customer_Details/select_-- select --AchhamArgha'), 'Kathmandu', 
     true)
@@ -66,9 +66,9 @@ WebUI.click(findTestObject('KYC Customer Adding/Page_Customer_Details/a_glyphico
 WebUI.selectOptionByValue(findTestObject('KYC Customer Adding/Page_Customer_Details/select_-- select --Grand Fathe'), 'Father', 
     true)
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet'), 'Ram Khatri')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet'), 'Kapil Basnet')
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_1'), 'राम खत्री')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_1'), 'कपिल बस्नेत')
 
 WebUI.click(findTestObject('KYC Customer Adding/Page_Customer_Details/a_Add more details...'))
 
@@ -101,30 +101,30 @@ WebUI.click(findTestObject('KYC Customer Adding/Page_Customer_Details/a_glyphico
 WebUI.selectOptionByValue(findTestObject('KYC Customer Adding/Page_Customer_Details/select_-- select --Grand Fathe_1'), 
     'Father', true)
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_10'), 'Hari Khatri')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_10'), 'Shyam Basnet')
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_11'), 'हरि खत्री ')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_11'), 'श्याम बस्नेत')
 
 WebUI.click(findTestObject('KYC Customer Adding/Page_Customer_Details/a_glyphicon glyphicon-plus Dyn_1'))
 
 WebUI.selectOptionByValue(findTestObject('KYC Customer Adding/Page_Customer_Details/select_-- select --Grand Fathe_2'), 
     'Grand Father', true)
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_12'), 'Bishal Khatri')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_12'), 'Pramesh Basnet')
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_13'), 'बिशाल खत्री')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_13'), 'प्रमेश बस्नेत')
 
 CustomKeywords.'com.example.SampleCustomKeywords.clickUsingJS'(findTestObject('KYC Customer Adding/Page_Customer_Details/a_glyphicon glyphicon-plus Dyn'), 
     30)
 
-WebUI.delay(15)
+WebUI.delay(20)
 
 WebUI.selectOptionByValue(findTestObject('KYC Customer Adding/Page_Customer_Details/select_-- select --Grand Fathe_3'), 
     'Grand Father', true)
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_14'), 'Hari Khatri')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_14'), 'Shyam Basnet')
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_15'), 'हरि खत्री ')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_15'), 'श्याम बस्नेत')
 
 WebUI.click(findTestObject('KYC Customer Adding/Page_Customer_Details/a_Add more details...'))
 
@@ -157,32 +157,32 @@ WebUI.click(findTestObject('KYC Customer Adding/Page_Customer_Details/a_glyphico
 WebUI.selectOptionByValue(findTestObject('KYC Customer Adding/Page_Customer_Details/select_-- select --Grand Fathe_4'), 
     'Father', true)
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_24'), 'Hari Khatri')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_24'), 'Pramesh Basnet')
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_25'), 'हरि खत्री   ')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_25'), 'प्रमेश बस्नेत')
 
 WebUI.click(findTestObject('KYC Customer Adding/Page_Customer_Details/a_glyphicon glyphicon-plus Dyn_1'))
 
 WebUI.selectOptionByValue(findTestObject('KYC Customer Adding/Page_Customer_Details/select_-- select --Grand Fathe_5'), 
     'Grand Father', true)
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_26'), 'Gopi Khatri')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_26'), 'Murli Basnet')
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_27'), 'गोपि खत्री ')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_27'), 'मुरली बस्नेत')
 
 CustomKeywords.'com.example.SampleCustomKeywords.clickUsingJS'(findTestObject('KYC Customer Adding/Page_Customer_Details/a_glyphicon glyphicon-plus Dyn'), 
     30)
 
-WebUI.delay(10)
+WebUI.delay(15)
 
 WebUI.selectOptionByValue(findTestObject('KYC Customer Adding/Page_Customer_Details/select_-- select --Grand Fathe_6'), 
     'Other', true)
 
 WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_28'), 'Friend')
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_29'), 'Rajiv Pradhan')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_29'), 'Pramod Shrestha')
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_30'), 'राजिव प्रधान')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_30'), 'प्रमोद श्रेष्ठ')
 
 WebUI.click(findTestObject('KYC Customer Adding/Page_Customer_Details/a_Add more details...'))
 
@@ -222,18 +222,18 @@ WebUI.click(findTestObject('KYC Customer Adding/Page_Customer_Details/a_glyphico
 WebUI.selectOptionByValue(findTestObject('KYC Customer Adding/Page_Customer_Details/select_-- select --Grand Fathe_7'), 
     'Father', true)
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_42'), 'Kabi Raj Pradhan')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_42'), 'Raju Shrestha')
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_43'), 'कबि राज प्रधान')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_43'), 'राजु श्रेष्ठ')
 
 WebUI.click(findTestObject('KYC Customer Adding/Page_Customer_Details/a_glyphicon glyphicon-plus Dyn_1'))
 
 WebUI.selectOptionByValue(findTestObject('KYC Customer Adding/Page_Customer_Details/select_-- select --Grand Fathe_8'), 
     'Grand Father', true)
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_44'), 'Tika Bahadur Pradhan')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_44'), 'Hem Bahadur Shrestha')
 
-WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_45'), 'टिका बहादुर प्रधान')
+WebUI.setText(findTestObject('KYC Customer Adding/Page_Customer_Details/input_PersonalDetail.FamilyDet_45'), 'हेम बहादुर श्रेष्ठ ')
 
 WebUI.click(findTestObject('KYC Customer Adding/Page_Customer_Details/input_btn btn-success col-md-1'))
 
