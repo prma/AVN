@@ -3,11 +3,11 @@
    <description></description>
    <name>a_Copy as Permanent</name>
    <tag></tag>
-   <elementGuidId>9120ea8e-4cbc-4fb2-a7bd-999bc483f60e</elementGuidId>
+   <elementGuidId>cd31f248-9ea8-4981-b2f5-313a24a6272f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;RelatedPerson&quot;)/div[@class=&quot;RelatedPersonSingle&quot;]/div[1]/div[@class=&quot;relatedPersonDetail&quot;]/div[@class=&quot;AddressDiv&quot;]/div[@class=&quot;temporaryAddressDiv&quot;]/div[@class=&quot;row&quot;]/span[1]/a[@class=&quot;copyPermanentAddress ClassToHide&quot;][count(. | //a[@href = '_#' and (text() = 'Copy as Permanent' or . = 'Copy as Permanent')]) = count(//a[@href = '_#' and (text() = 'Copy as Permanent' or . = 'Copy as Permanent')])]</value>
+         <value>id(&quot;RelatedPerson&quot;)/div[@class=&quot;RelatedPersonSingle&quot;]/div[1]/div[@class=&quot;relatedPersonDetail&quot;]/div[@class=&quot;AddressDiv&quot;]/div[@class=&quot;temporaryAddressDiv&quot;]/div[@class=&quot;row&quot;]/h2[1]/a[@class=&quot;copyPermanentAddress ClassToHide&quot;][count(. | //a[@href = '_#' and (text() = 'Copy as Permanent' or . = 'Copy as Permanent')]) = count(//a[@href = '_#' and (text() = 'Copy as Permanent' or . = 'Copy as Permanent')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,6 +45,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;RelatedPerson&quot;)/div[@class=&quot;RelatedPersonSingle&quot;]/div[1]/div[@class=&quot;relatedPersonDetail&quot;]/div[@class=&quot;AddressDiv&quot;]/div[@class=&quot;temporaryAddressDiv&quot;]/div[@class=&quot;row&quot;]/span[1]/a[@class=&quot;copyPermanentAddress ClassToHide&quot;]</value>
+      <value>id(&quot;RelatedPerson&quot;)/div[@class=&quot;RelatedPersonSingle&quot;]/div[1]/div[@class=&quot;relatedPersonDetail&quot;]/div[@class=&quot;AddressDiv&quot;]/div[@class=&quot;temporaryAddressDiv&quot;]/div[@class=&quot;row&quot;]/h2[1]/a[@class=&quot;copyPermanentAddress ClassToHide&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

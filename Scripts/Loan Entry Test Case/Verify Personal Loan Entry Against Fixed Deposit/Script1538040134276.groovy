@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login Test Case/TC1_Verify Successful Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('KYC Loan Entry Against Fixed Deposit/Customer_Nav/a_Customer'))
+WebUI.click(findTestObject('Latest Customer Links Button/a_Customer'))
 
 WebUI.click(findTestObject('KYC Loan Entry Against Fixed Deposit/Customer_Nav/a_Customers'))
 
@@ -348,5 +348,5 @@ WebUI.click(findTestObject('KYC Loan Entry Against Fixed Deposit/Page_Add Edit L
 WebUI.selectOptionByValue(findTestObject('KYC Loan Entry Against Fixed Deposit/Page_Add Edit Loan Entry -Field Details/select_Letter Of AgreementLett'), 
     'IndividualLoanDeedPromotorShare', true)
 
-WebUI.click(findTestObject('KYC Loan Entry Against Fixed Deposit/Page_Add Edit Loan Entry -Field Details/input_Submit'))
+WebUI.click(findTestObject('New Customer and Loan Entry Save Button/button_Save'))
 

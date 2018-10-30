@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login Test Case/TC1_Verify Successful Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('KYC Multiple Customer Loan Entry/Customer Nav/a_Customer'))
+WebUI.click(findTestObject('Latest Customer Links Button/a_Customer'))
 
 WebUI.click(findTestObject('KYC Multiple Customer Loan Entry/Customer Nav/a_Customers'))
 
@@ -217,9 +217,9 @@ WebUI.setText(findTestObject('KYC Multiple Customer Loan Entry/Page_Add Edit Loa
 WebUI.setText(findTestObject('KYC Multiple Customer Loan Entry/Page_Add Edit Loan Entry -Field Details/input_PreviousLoanDetails0.Bak_1'), 
     '500000')
 
-WebUI.click(findTestObject('KYC Multiple Customer Loan Entry/Page_Add Edit Loan Entry -Field Details/a_Bail Persons'))
+WebUI.click(findTestObject('Loan Entry Guarantors/a_Guarantors'))
 
-WebUI.click(findTestObject('KYC Multiple Customer Loan Entry/Page_Add Edit Loan Entry -Field Details/a_glyphicon glyphicon-plus Dyn_2'))
+WebUI.click(findTestObject('Loan Entry Guarantors/a_glyphicon glyphicon-plus Dyn'))
 
 WebUI.selectOptionByValue(findTestObject('KYC Multiple Customer Loan Entry/Page_Add Edit Loan Entry -Field Details/select_-- select --Father- Kap'), 
     '325093', true)
@@ -409,12 +409,12 @@ WebUI.click(findTestObject('KYC Multiple Customer Loan Entry/Page_Add Edit Loan 
 WebUI.click(findTestObject('KYC Multiple Customer Loan Entry/Page_Add Edit Loan Entry -Field Details/a_Letter Of Agreement'))
 
 WebUI.selectOptionByValue(findTestObject('KYC Multiple Customer Loan Entry/Page_Add Edit Loan Entry -Field Details/select_Letter Of AgreementLett'), 
-    'LetterOfAgreement', true)
+    'LetterOfAgreement', false)
 
 WebUI.click(findTestObject('KYC Multiple Customer Loan Entry/Page_Add Edit Loan Entry -Field Details/a_Letter Of Continuity'))
 
 WebUI.selectOptionByValue(findTestObject('KYC Multiple Customer Loan Entry/Page_Add Edit Loan Entry -Field Details/select_Letter Of AgreementLett'), 
-    'LetterOfContinuity', true)
+    'LetterOfContinuity', false)
 
 WebUI.click(findTestObject('KYC Multiple Customer Loan Entry/Page_Add Edit Loan Entry -Field Details/span_Consent Letter To Blackli'))
 
@@ -566,5 +566,5 @@ WebUI.click(findTestObject('KYC Multiple Customer Loan Entry/Page_Add Edit Loan 
 WebUI.selectOptionByValue(findTestObject('KYC Multiple Customer Loan Entry/Page_Add Edit Loan Entry -Field Details/select_Letter Of AgreementLett'), 
     'IndividualLoanDeedPromotorShare', true)
 
-WebUI.click(findTestObject('KYC Multiple Customer Loan Entry/Page_Add Edit Loan Entry -Field Details/input_Submit'))
+WebUI.click(findTestObject('New Customer and Loan Entry Save Button/button_Save'))
 

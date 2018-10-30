@@ -21,17 +21,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login Test Case/TC1_Verify Successful Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Customer Links/Customer Button Links/a_Customer'))
+WebUI.click(findTestObject('Latest Customer Links Button/a_Customer'))
 
-WebUI.click(findTestObject('Customer Links/Customer Button Links/a_Add Customer'))
+WebUI.click(findTestObject('Latest Customer Links Button/a_Add Individual'))
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_CustomerID'), '9128113')
+WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_CustomerID'), '7278381')
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_AccountNo'), '12656512')
+WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_AccountNo'), '652311')
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FullName'), 'Supriya Thapa')
+WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FullName'), 'Soni Thapa')
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FullNameN'), 'सुप्रिया थापा ')
+WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FullNameN'), 'सोनी थापा ')
 
 WebUI.click(findTestObject('Customer Gender Section/input_PersonalDetail.Gender_Female'))
 
@@ -40,6 +40,8 @@ WebUI.click(findTestObject('Customer Mariatal Status/input_PersonalDetail.Marrit
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.DOBEnglis'), '1992/6/2')
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.DOBNepali'), '२०४९/६/२')
+
+WebUI.click(findTestObject('Customer Entry All Dynamic Tab Fields/a_Address'))
 
 WebUI.selectOptionByValue(findTestObject('KYC Female Customer/Page_Customer_Details/select_-- select --AchhamArgha'), 'Bhaktapur', 
     true)
@@ -59,6 +61,8 @@ WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_Pe
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.Temporary_2'), '13')
 
+WebUI.click(findTestObject('Customer Entry All Dynamic Tab Fields/a_Document Detail'))
+
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.Identific'), '११३१/५६७१')
 
 WebUI.sendKeys(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Customer_Citizen_Issued_Place/input_PersonalDetail.Identific'), 
@@ -68,7 +72,9 @@ WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_Pe
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.Identific_2'), '२०६५/७/१')
 
-WebUI.click(findTestObject('KYC Female Customer/Page_Customer_Details/a_glyphicon glyphicon-plus Dyn'))
+WebUI.click(findTestObject('Customer Entry All Dynamic Tab Fields/a_Relationship'))
+
+WebUI.click(findTestObject('Customer Entry All Dynamic Tab Fields/a_glyphicon glyphicon-plus Dyn'))
 
 WebUI.selectOptionByValue(findTestObject('KYC Female Customer/Page_Customer_Details/select_-- select --Grand Fathe'), 'Father', 
     true)
@@ -101,9 +107,9 @@ WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_Pe
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_9'), '5')
 
-WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Relation_Copy_Address/a_Copy as Permanent'))
+WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Relation Copy/a_Copy as Permanent'))
 
-WebUI.click(findTestObject('KYC Female Customer/Page_Customer_Details/a_glyphicon glyphicon-plus Dyn_1'))
+WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Family Detail Plus/a_glyphicon glyphicon-plus Dyn'))
 
 WebUI.selectOptionByValue(findTestObject('KYC Female Customer/Page_Customer_Details/select_-- select --Grand Fathe_1'), 
     'Father', true)
@@ -112,7 +118,7 @@ WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_Pe
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_11'), 'कुमार थापा')
 
-WebUI.click(findTestObject('KYC Female Customer/Page_Customer_Details/a_glyphicon glyphicon-plus Dyn_1'))
+WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Family Detail Plus/a_glyphicon glyphicon-plus Dyn'))
 
 WebUI.selectOptionByValue(findTestObject('KYC Female Customer/Page_Customer_Details/select_-- select --Grand Fathe_2'), 
     'Grand Father', true)
@@ -121,10 +127,10 @@ WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_Pe
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_13'), 'सानु थापा')
 
-CustomKeywords.'com.example.SampleCustomKeywords.clickUsingJS'(findTestObject('KYC Female Customer/Page_Customer_Details/a_glyphicon glyphicon-plus Dyn'), 
+CustomKeywords.'com.example.SampleCustomKeywords.clickUsingJS'(findTestObject('Customer Entry All Dynamic Tab Fields/a_glyphicon glyphicon-plus Dyn'), 
     30)
 
-WebUI.delay(10)
+WebUI.delay(20)
 
 WebUI.selectOptionByValue(findTestObject('KYC Female Customer/Page_Customer_Details/select_-- select --Grand Fathe_3'), 
     'Father In Law', true)
@@ -157,9 +163,9 @@ WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_Pe
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_23'), '13')
 
-WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Relation_Copy_Address_1/a_Copy as Permanent_1'))
+WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Relation Copy/a_Copy as Permanent'))
 
-WebUI.click(findTestObject('KYC Female Customer/Page_Customer_Details/a_glyphicon glyphicon-plus Dyn_1'))
+WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Family Detail Plus/a_glyphicon glyphicon-plus Dyn'))
 
 WebUI.selectOptionByValue(findTestObject('KYC Female Customer/Page_Customer_Details/select_-- select --Grand Fathe_4'), 
     'Father', true)
@@ -168,7 +174,7 @@ WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_Pe
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_25'), 'टिका बहादुर थापा ')
 
-WebUI.click(findTestObject('KYC Female Customer/Page_Customer_Details/a_glyphicon glyphicon-plus Dyn_1'))
+WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Family Detail Plus/a_glyphicon glyphicon-plus Dyn'))
 
 WebUI.selectOptionByValue(findTestObject('KYC Female Customer/Page_Customer_Details/select_-- select --Grand Fathe_5'), 
     'Grand Father', true)
@@ -177,7 +183,7 @@ WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_Pe
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_27'), 'यज्ञ बहादुर थापा ')
 
-CustomKeywords.'com.example.SampleCustomKeywords.clickUsingJS'(findTestObject('KYC Female Customer/Page_Customer_Details/a_glyphicon glyphicon-plus Dyn'), 
+CustomKeywords.'com.example.SampleCustomKeywords.clickUsingJS'(findTestObject('Customer Entry All Dynamic Tab Fields/a_glyphicon glyphicon-plus Dyn'), 
     30)
 
 WebUI.delay(15)
@@ -213,9 +219,9 @@ WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_Pe
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_37'), '13')
 
-WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Relation_Copy_Address_2/a_Copy as Permanent_2'))
+WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Relation Copy/a_Copy as Permanent'))
 
-WebUI.click(findTestObject('KYC Female Customer/Page_Customer_Details/a_glyphicon glyphicon-plus Dyn_1'))
+WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Family Detail Plus/a_glyphicon glyphicon-plus Dyn'))
 
 WebUI.selectOptionByValue(findTestObject('KYC Female Customer/Page_Customer_Details/select_-- select --Grand Fathe_7'), 
     'Father', true)
@@ -224,7 +230,7 @@ WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_Pe
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_39'), 'कबि राज थापा')
 
-WebUI.click(findTestObject('KYC Female Customer/Page_Customer_Details/a_glyphicon glyphicon-plus Dyn_1'))
+WebUI.click(findTestObject('KYC Customer All Fields(Customer Page Navigation,Citizen Issued Place,Address Copy)/Family Detail Plus/a_glyphicon glyphicon-plus Dyn'))
 
 WebUI.selectOptionByValue(findTestObject('KYC Female Customer/Page_Customer_Details/select_-- select --Grand Fathe_8'), 
     'Grand Father', true)
@@ -233,5 +239,5 @@ WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_Pe
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_41'), 'टिका बहादुर थापा ')
 
-WebUI.click(findTestObject('KYC Female Customer/Page_Customer_Details/input_btn btn-success col-md-1'))
+WebUI.click(findTestObject('New Customer and Loan Entry Save Button/button_Save'))
 

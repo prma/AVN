@@ -347,5 +347,5 @@ WebUI.click(findTestObject('KYC Loan Entry Against Bank Guarantee/Page_Add Edit 
 WebUI.selectOptionByValue(findTestObject('KYC Loan Entry Against Bank Guarantee/Page_Add Edit Loan Entry -Field Details/select_Letter Of AgreementLett'), 
     'IndividualLoanDeedPromotorShare', true)
 
-WebUI.click(findTestObject('KYC Loan Entry Against Bank Guarantee/Page_Add Edit Loan Entry -Field Details/input_Submit'))
+WebUI.click(findTestObject('New Customer and Loan Entry Save Button/button_Save'))
 

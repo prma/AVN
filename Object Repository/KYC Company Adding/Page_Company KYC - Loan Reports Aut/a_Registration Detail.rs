@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Copy as Permanent</name>
+   <name>a_Registration Detail</name>
    <tag></tag>
-   <elementGuidId>9120ea8e-4cbc-4fb2-a7bd-999bc483f60e</elementGuidId>
+   <elementGuidId>7f50c411-b951-4aca-abab-0fb836db78fa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;RelatedPerson&quot;)/div[@class=&quot;RelatedPersonSingle&quot;]/div[1]/div[@class=&quot;relatedPersonDetail&quot;]/div[@class=&quot;AddressDiv&quot;]/div[@class=&quot;temporaryAddressDiv&quot;]/div[@class=&quot;row&quot;]/span[1]/a[@class=&quot;copyPermanentAddress ClassToHide&quot;][count(. | //a[@href = '_#' and (text() = 'Copy as Permanent' or . = 'Copy as Permanent')]) = count(//a[@href = '_#' and (text() = 'Copy as Permanent' or . = 'Copy as Permanent')])]</value>
+         <value>//a[@href = '#RegistrationDetail' and (text() = 'Registration Detail' or . = 'Registration Detail')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,27 +24,27 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>_#</value>
+      <value>#RegistrationDetail</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-toggle</name>
       <type>Main</type>
-      <value>copyPermanentAddress ClassToHide</value>
+      <value>tab</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Copy as Permanent</value>
+      <value>Registration Detail</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;RelatedPerson&quot;)/div[@class=&quot;RelatedPersonSingle&quot;]/div[1]/div[@class=&quot;relatedPersonDetail&quot;]/div[@class=&quot;AddressDiv&quot;]/div[@class=&quot;temporaryAddressDiv&quot;]/div[@class=&quot;row&quot;]/span[1]/a[@class=&quot;copyPermanentAddress ClassToHide&quot;]</value>
+      <value>id(&quot;content&quot;)/div[@class=&quot;col-md-2 sidebar&quot;]/div[1]/ul[@class=&quot;nav nav-tabs nav-stacked&quot;]/li[3]/a[1]</value>
    </webElementProperties>
 </WebElementEntity>

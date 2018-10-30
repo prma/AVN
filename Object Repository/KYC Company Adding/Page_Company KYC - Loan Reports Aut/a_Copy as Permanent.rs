@@ -3,13 +3,7 @@
    <description></description>
    <name>a_Copy as Permanent</name>
    <tag></tag>
-   <elementGuidId>9120ea8e-4cbc-4fb2-a7bd-999bc483f60e</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;RelatedPerson&quot;)/div[@class=&quot;RelatedPersonSingle&quot;]/div[1]/div[@class=&quot;relatedPersonDetail&quot;]/div[@class=&quot;AddressDiv&quot;]/div[@class=&quot;temporaryAddressDiv&quot;]/div[@class=&quot;row&quot;]/span[1]/a[@class=&quot;copyPermanentAddress ClassToHide&quot;][count(. | //a[@href = '_#' and (text() = 'Copy as Permanent' or . = 'Copy as Permanent')]) = count(//a[@href = '_#' and (text() = 'Copy as Permanent' or . = 'Copy as Permanent')])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>6c11df00-94bb-42d2-90bd-fba83f7aad77</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -41,10 +35,10 @@
       <value>Copy as Permanent</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;RelatedPerson&quot;)/div[@class=&quot;RelatedPersonSingle&quot;]/div[1]/div[@class=&quot;relatedPersonDetail&quot;]/div[@class=&quot;AddressDiv&quot;]/div[@class=&quot;temporaryAddressDiv&quot;]/div[@class=&quot;row&quot;]/span[1]/a[@class=&quot;copyPermanentAddress ClassToHide&quot;]</value>
+      <value>id(&quot;RelatedPerson&quot;)/div[@class=&quot;RelatedPersonSingle&quot;]/div[@class=&quot;AddressDiv&quot;]/div[@class=&quot;relatedPersonDetail&quot;]/div[@class=&quot;AddressDiv&quot;]/div[@class=&quot;temporaryAddressDiv&quot;]/div[@class=&quot;row&quot;]/h2[1]/a[@class=&quot;copyPermanentAddress ClassToHide&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
