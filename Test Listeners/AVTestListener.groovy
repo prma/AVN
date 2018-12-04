@@ -31,7 +31,7 @@ class AVTestListener {
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
-		WebUI.openBrowser('http://localhost/')
+		WebUI.openBrowser('https://xmartcredit/')
 	}
 
 	/**

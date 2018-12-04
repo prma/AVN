@@ -25,21 +25,22 @@ WebUI.click(findTestObject('Latest Customer Links Button/a_Customer'))
 
 WebUI.click(findTestObject('Latest Customer Links Button/a_Add Individual'))
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_CustomerID'), '7278381')
+WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_CustomerID'), '5434622')
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_AccountNo'), '652311')
+WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_AccountNo'), '5463221')
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FullName'), 'Soni Thapa')
+WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FullName'), 'Supriya Thapa')
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FullNameN'), 'सोनी थापा ')
+WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FullNameN'), 'सुप्रिया थापा ')
 
 WebUI.click(findTestObject('Customer Gender Section/input_PersonalDetail.Gender_Female'))
 
 WebUI.click(findTestObject('Customer Mariatal Status/input_PersonalDetail.MarritalS_Married'))
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.DOBEnglis'), '1992/6/2')
+WebUI.setText(findTestObject('Customers Date of Birth Fields/Page_Individual KYC - Loan Reports/input_PersonalDetail.DOBEnglis'), 
+    '1992/6/2')
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.DOBNepali'), '२०४९/६/२')
+WebUI.click(findTestObject('Customers Date of Birth Fields/Page_Individual KYC - Loan Reports/span_glyphicon glyphicon-resiz'))
 
 WebUI.click(findTestObject('Customer Entry All Dynamic Tab Fields/a_Address'))
 
@@ -87,9 +88,11 @@ WebUI.click(findTestObject('KYC Female Customer/Page_Customer_Details/a_Add more
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_2'), '१२१३/८१२१')
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_3'), '1920/3/1')
+WebUI.setText(findTestObject('Customers Date of Birth Fields/Page_Individual KYC - Loan Reports/input_PersonalDetail.FamilyDet'), 
+    '1920/3/1')
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_4'), '२०२०/५/७')
+CustomKeywords.'com.example.SampleCustomKeywords.clickUsingJS'(findTestObject('Customers Date of Birth Fields/Page_Individual KYC - Loan Reports/span_glyphicon glyphicon-resiz_1'), 
+    30)
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_5'), '२०४०/६/४')
 
@@ -143,9 +146,11 @@ WebUI.click(findTestObject('KYC Female Customer/Page_Customer_Details/a_Add more
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_16'), '४२१४/१५६१')
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_17'), '1919/4/2')
+WebUI.setText(findTestObject('Customers Date of Birth Fields/Page_Individual KYC - Loan Reports/input_PersonalDetail.FamilyDet_1'), 
+    '1919/4/2')
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_18'), '२०१९/४/७')
+CustomKeywords.'com.example.SampleCustomKeywords.clickUsingJS'(findTestObject('Customers Date of Birth Fields/Page_Individual KYC - Loan Reports/span_glyphicon glyphicon-resiz_1'), 
+    30)
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_19'), '२०३९/५/७')
 
@@ -199,9 +204,11 @@ WebUI.click(findTestObject('KYC Female Customer/Page_Customer_Details/a_Add more
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_30'), '१३२३/७८८९')
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_31'), '1992/3/31')
+WebUI.setText(findTestObject('Customers Date of Birth Fields/Page_Individual KYC - Loan Reports/input_PersonalDetail.FamilyDet_2'), 
+    '1992/3/31')
 
-WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_32'), '२०४८/१२/१८')
+CustomKeywords.'com.example.SampleCustomKeywords.clickUsingJS'(findTestObject('Customers Date of Birth Fields/Page_Individual KYC - Loan Reports/span_glyphicon glyphicon-resiz_1'), 
+    30)
 
 WebUI.setText(findTestObject('KYC Female Customer/Page_Customer_Details/input_PersonalDetail.FamilyDet_33'), '२०६५/५/६')
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify new customer is added (CT-01)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>848258f9-ba51-41d1-ba22-04dab4190aa7</testCaseGuid>
+</TestCaseEntity>

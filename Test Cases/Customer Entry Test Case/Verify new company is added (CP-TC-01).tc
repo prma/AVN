@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify new company is added (CP-TC-01)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcce4e37-191b-47a8-90dd-5ff079a5f7fd</testCaseGuid>
+</TestCaseEntity>
